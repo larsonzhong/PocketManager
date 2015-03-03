@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/huadongshanchu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:text="滑动取消"
+            android:textColor="@color/common_white_bg" />
+
+        <TextView
+            android:id="@+id/autoprofiles_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@id/huadongshanchu"
+            android:paddingRight="20dp"
+            android:text="12:12"
+            android:textColor="@color/common_white_bg"
+            android:textSize="30sp" />
+
+        <ImageView
+            android:id="@+id/ring_ico"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/profiles_ring" />
+
+        <TextView
+            android:id="@+id/autoprofiles_profiles"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/ring_ico"
+            android:paddingLeft="20dp"
+            android:text="响铃"
+            android:textColor="@color/common_white_bg"
+            android:textSize="30sp" />
+    </RelativeLayout>
+
+</LinearLayout><!-- From: file:/home/larson/larsoncode/StudioProject/pocketManager/res/layout/auto_profiles_item.xml -->

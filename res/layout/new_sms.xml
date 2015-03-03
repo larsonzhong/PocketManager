@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#000000"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/acbuwa_topbar"
+        style="@style/topbar_bg"
+        android:layout_width="fill_parent"
+        android:layout_height="46.0dip" >
+
+        <Button
+            android:id="@+id/btn_return"
+            style="@style/topbar_left_btn"
+            android:background="@drawable/btn_return" />
+
+        <TextView
+            style="@style/topbar_text"
+            android:text="新建信息" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/add_contact_ll"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/sms_add_contact_bg"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="5dip" >
+
+        <TextView
+            android:id="@+id/sms_contact_et"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/sms_edit_lxrbg"
+            android:gravity="center"
+            android:text="选择联系人" />
+
+        <Button
+            android:id="@+id/add_contact_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dip"
+            android:background="@drawable/sms_add_select_contact_btn" />
+    </LinearLayout>
+
+    <larson.pm.view.SlideCutListView
+        android:id="@+id/sms_list"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="#00000000"
+        android:cacheColorHint="#00000000"
+        android:choiceMode="singleChoice"
+        android:divider="@drawable/tc_line"
+        android:fadingEdge="none"
+        android:soundEffectsEnabled="true">
+    </larson.pm.view.SlideCutListView>
+
+    <ListView
+        android:id="@+id/contact_list"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#00000000"
+        android:cacheColorHint="#00000000"
+        android:choiceMode="singleChoice"
+        android:divider="@drawable/tc_line"
+        android:fadingEdge="none"
+        android:visibility="gone"
+        android:soundEffectsEnabled="true" >
+    </ListView>
+
+    <LinearLayout
+        android:id="@+id/bottom_ll"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/main_tab_bg"
+        android:orientation="horizontal"
+        android:padding="5dip" >
+
+        <Button
+            android:id="@+id/sms_more_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|left"
+            android:background="@drawable/exp_expend" />
+
+        <EditText
+            android:id="@+id/sms_content_et"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="5dip"
+            android:layout_marginRight="5dip"
+            android:layout_weight="1"
+            android:background="@drawable/et_input"
+            android:gravity="left|top"
+            android:hint="输入短信内容"
+            android:maxLines="4"
+            android:padding="5dip" />
+
+        <Button
+            android:id="@+id/sms_send_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|right"
+            android:background="@drawable/bg_sms_send_normal"
+            android:text="发送"
+            android:textColor="#ffffff" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/sms_setting_time_ly"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dp"
+        android:background="@drawable/shape_bg"
+        android:orientation="horizontal"
+        android:padding="15dp"
+        android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/sms_date_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:text="1992-2-8"
+            android:textColor="@color/setting_text" />
+
+        <ImageView
+            android:id="@+id/sms_date_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:src="@drawable/edit_big_selector" />
+
+        <TextView
+            android:id="@+id/sms_time_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:text="09:33"
+            android:textColor="@color/setting_text" />
+
+        <ImageView
+            android:id="@+id/sms_time_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:src="@drawable/edit_big_selector" />
+    </LinearLayout>
+
+</LinearLayout>

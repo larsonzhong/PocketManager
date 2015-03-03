@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="larson.pm"
+    android:installLocation="preferExternal"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="10" />
+
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+
+    <!-- AppTheme是我自定义的样式，在style里面,配置了一个全局的activity动画 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.SEND_SMS"/>
+
+    <application
+        android:name="larson.pm.utils.App"
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="larson.pm.WelcomeActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="larson.pm.MainActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="larson.pm.FondActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="larson.pm.FondAddActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="larson.pm.FondBillActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="larson.pm.FondFindActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="larson.pm.FondChartActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity android:name="org.achartengine.GraphicalActivity" />
+        <activity
+            android:name="larson.pm.GoalActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="larson.pm.GoalAddActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="larson.pm.GoalAddStepActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="larson.pm.GoalAddDetailActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="larson.pm.GoalDetailActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="larson.pm.GoalBillActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="larson.pm.SettingMainActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="larson.pm.SettingAboutUsActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="larson.pm.SettingAboutHelpActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="larson.pm.SettingBackRecActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="larson.pm.SettingSoftwareActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="larson.pm.TimeMainActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="larson.pm.TimeTimerActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="larson.pm.ProfilesActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="larson.pm.ProfilesAddActiivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="larson.pm.ReminderActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="larson.pm.ReminderAddActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="larson.pm.TimeSmsActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="larson.pm.CallInActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="larson.pm.CreateGesturePasswordActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="larson.pm.GuideGesturePasswordActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="larson.pm.UnlockGesturePasswordActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="larson.pm.SettingContractUSActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="larson.pm.SettingAccountActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="larson.pm.LoginActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="larson.pm.RegisterActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="larson.pm.WhatsNewActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+
+        <receiver android:name="larson.pm.receiver.AlarmBroadcastReceiver" >
+            <intent-filter>
+                <action android:name="larson.wlb.autoprofiles.RV_CHANGED" />
+                <action android:name="larson.wlb.autoprofiles.RING_CHANGED" />
+                <action android:name="larson.wlb.autoprofiles.VIBRATE_CHANGED" />
+                <action android:name="larson.wlb.autoprofiles.SILENT_CHANGED" />
+                <action android:name="larson.wlb.autoprofiles.OFFLINE_CHANGED" />
+                <action android:name="larson.wlb.autoprofiles.CALL_IN_CHANGED" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="larson.pm.receiver.ReminderReceiver" >
+            <intent-filter>
+                <action android:name="larson.wlb.reminder.ALARM_CLOCK" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="larson.pm.receiver.SmsReceiver" >
+            <intent-filter>
+                <action android:name="larson.pm.SEND_SMS" />
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>

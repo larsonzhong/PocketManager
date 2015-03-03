@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="60dp"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:background="@drawable/fond_bill_item_middle"
+        android:layout_height="60dp" >
+
+        <TextView
+            android:id="@+id/fond_item_item_sub"
+            android:layout_width="200dp"
+            android:layout_height="28dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:text="买菜"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/fond_item_item_amount"
+            android:layout_width="80dp"
+            android:layout_height="28dp"
+            android:layout_gravity="right"
+            android:layout_marginTop="20dp"
+            android:layout_alignParentRight="true"
+            android:layout_toRightOf="@id/fond_item_item_sub"
+            android:text="-60"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/fond_item_item_time"
+            android:layout_width="fill_parent"
+            android:layout_height="20dp"
+            android:layout_marginLeft="25dp"
+            android:layout_below="@id/fond_item_item_sub"
+            android:text="2014-12-14 上午7：32"
+            android:textSize="12sp" />
+        
+    </RelativeLayout>
+
+</LinearLayout>

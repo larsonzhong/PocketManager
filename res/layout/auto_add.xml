@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/view"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@android:color/darker_gray"
+    android:padding="12sp" >
+
+
+    <TimePicker
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/timePkr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+    </TimePicker>
+
+    <RadioGroup
+        android:id="@+id/menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <RadioButton
+            android:id="@+id/auto_default_select"
+            android:layout_width="fill_parent"
+            android:checked="true"
+            android:paddingLeft="50sp"
+            android:text="请选择"
+            android:textSize="24sp" />
+
+        <RadioButton
+            android:id="@+id/ring_and_vibrate"
+            android:layout_width="fill_parent"
+            android:paddingLeft="50sp"
+            android:text="户外模式"
+            android:textSize="24sp" />
+
+        <RadioButton
+            android:id="@+id/ring"
+            android:layout_width="fill_parent"
+            android:paddingLeft="50sp"
+            android:paddingRight="50sp"
+            android:text="普通模式"
+            android:textSize="24sp" />
+
+        <RadioButton
+            android:id="@+id/vibrate"
+            android:layout_width="fill_parent"
+            android:paddingLeft="50sp"
+            android:paddingRight="50sp"
+            android:text="会议模式"
+            android:textSize="24sp" />
+
+        <RadioButton
+            android:id="@+id/silent"
+            android:layout_width="fill_parent"
+            android:paddingLeft="50sp"
+            android:paddingRight="50sp"
+            android:text="静音模式"
+            android:textSize="24sp" />
+        
+        <RadioButton
+            android:id="@+id/offline"
+            android:layout_width="fill_parent"
+            android:paddingLeft="50sp"
+            android:paddingRight="50sp"
+            android:text="飞行模式"
+            android:textSize="24sp" />
+        
+        <RadioButton
+            android:id="@+id/call_in"
+            android:layout_width="fill_parent"
+            android:paddingLeft="50sp"
+            android:paddingRight="50sp"
+            android:text="来电模式"
+            android:textSize="24sp" />
+    </RadioGroup>
+
+</LinearLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical" >
+
+    <Button
+        android:onClick="onClick"
+        android:id="@+id/budget_out_Chart_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.13"
+        android:layout_margin="10dp"
+        android:background="#56473829"
+        android:textSize="30sp"
+        android:textColor="@color/common_white_bg"
+        android:text="查看支出饼状图" />
+
+    <Button
+        android:onClick="onClick"
+        android:id="@+id/budget_in_Chart_btn"
+        android:background="#56473829"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/common_white_bg"
+        android:textSize="30sp"
+        android:layout_margin="10dp"
+        android:layout_weight="0.12"
+        android:text="查看收入饼状图" />
+    
+    <Button
+        android:onClick="onClick"
+        android:id="@+id/month_average_btn"
+        android:background="#56473829"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/common_white_bg"
+        android:textSize="30sp"
+        android:layout_margin="10dp"
+        android:layout_weight="0.13"
+        android:text="查看每月折线图" />
+
+
+</LinearLayout>

@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+<ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="1.0"
+        android:background="@drawable/history_order_detail_driverin_bg"
+        android:padding="10.0dip" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5.0dip"
+                android:layout_marginTop="15.0dip"
+                android:gravity="center_vertical"
+                android:paddingLeft="10.0dip"
+                android:paddingRight="10.0dip" >
+
+                <ImageView
+                    android:id="@+id/img_driver"
+                    android:layout_width="50.0dip"
+                    android:layout_height="50.0dip"
+                    android:src="@drawable/timer_ico" />
+
+                <TextView
+                    android:id="@+id/goal_set_step_limit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5.0dip"
+                    android:layout_toRightOf="@id/img_driver"
+                    android:text="设置阶段期限"
+                    android:textColor="@color/blue"
+                    android:textSize="12.0sp" />
+
+                <EditText
+                    android:id="@+id/goal_step3Time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_below="@id/goal_set_step_limit"
+                    android:layout_marginLeft="10dp"
+                    android:focusable="false"
+                    android:layout_toRightOf="@id/img_driver"
+                    android:background="@drawable/edt_bg"
+                    android:ems="10"
+                    android:gravity="center" />
+
+                <Button
+                    android:id="@+id/goal_step3Time_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginLeft="5dp"
+                    android:background="@drawable/about_setting_item_bg"
+                    android:text=" 设  置 " />
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                android:src="@drawable/common_white_board_divider_line" />
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5.0dip"
+                android:layout_marginTop="15.0dip"
+                android:gravity="center_vertical"
+                android:paddingLeft="10.0dip"
+                android:paddingRight="10.0dip" >
+
+                <TextView
+                    android:id="@+id/goal_step_describe_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5.0dip"
+                    android:text="预计进度描述"
+                    android:textColor="@color/blue"
+                    android:textSize="12.0sp" />
+
+                <ImageButton
+                    android:id="@+id/goal_challengeLevel_help"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:background="@drawable/help_selector" />
+
+                <EditText
+                    android:id="@+id/goal_step3Describe"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/goal_challengeLevel_help"
+                    android:background="@drawable/edt_bg"
+                    android:ems="10"
+                    android:gravity="center"
+                    android:minLines="4" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:orientation="vertical"
+                android:paddingTop="5.0dip" >
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="30.0dip"
+                    android:gravity="center"
+                    android:paddingLeft="10.0dip"
+                    android:paddingRight="10.0dip" >
+
+                    <View
+                        android:layout_width="0.0dip"
+                        android:layout_height="1.0dip"
+                        android:layout_weight="1.0"
+                        android:background="@color/grey" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10.0dip"
+                        android:layout_marginRight="10.0dip"
+                        android:text="预计完成进度"
+                        android:textColor="@color/txt_color_gray"
+                        android:textSize="13.0sp" />
+
+                    <View
+                        android:layout_width="0.0dip"
+                        android:layout_height="1.0dip"
+                        android:layout_weight="1.0"
+                        android:background="@color/grey" />
+                </LinearLayout>
+
+                <RatingBar
+                    android:id="@+id/goal_step3Degree"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50.0dip"
+                    android:layout_marginBottom="8.0dip"
+                    android:layout_marginTop="8.0dip"
+                    android:numStars="5" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
+<!-- From: file:/home/larson/larsoncode/StudioProject/pocketManager/res/layout/goal_step3_middle.xml -->

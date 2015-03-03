@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/common_white_bg"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        style="@style/topbar_bg"
+        android:layout_width="fill_parent"
+        android:layout_height="46.0dip" >
+
+        <TextView
+            android:id="@+id/topbar_title"
+            style="@style/topbar_text"
+            android:text="设置" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/common_white_bg"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/setting_padding_size"
+            android:paddingRight="@dimen/setting_padding_size" >
+
+            
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                android:src="@drawable/common_white_board_wide_divider_line" />
+
+            <include 
+                android:id="@+id/setting_user_ly"
+                layout="@layout/contact_item"/>
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                android:src="@drawable/common_white_board_divider_line" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="30.0dip"
+                android:layout_marginLeft="@dimen/setting_text_padding_size"
+                android:layout_marginTop="5.0dip"
+                android:gravity="center_vertical"
+                android:text="软件设置"
+                android:textColor="@color/setting_item_title"
+                android:textSize="14.0dip" />
+
+            <RelativeLayout
+                android:id="@+id/setting_software_ly"
+                android:layout_width="fill_parent"
+                android:layout_height="45.0dip"
+                android:background="@drawable/setting_item_bg"
+                android:paddingLeft="@dimen/setting_text_padding_size"
+                android:paddingRight="@dimen/setting_text_padding_size" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="软件内容设置"
+                    android:textColor="#ff585858"
+                    android:textSize="18.0dip" />
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                android:src="@drawable/common_white_board_divider_line" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="30.0dip"
+                android:layout_marginLeft="@dimen/setting_text_padding_size"
+                android:layout_marginTop="5.0dip"
+                android:gravity="center_vertical"
+                android:text="备份还原"
+                android:textColor="@color/setting_item_title"
+                android:textSize="14.0dip" />
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                android:src="@drawable/common_white_board_wide_divider_line" />
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="45.0dip"
+                android:background="@drawable/setting_item_bg"
+                android:paddingLeft="@dimen/setting_text_padding_size"
+                android:paddingRight="@dimen/setting_text_padding_size" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="开启自动备份"
+                    android:textColor="@color/setting_text"
+                    android:textSize="18.0dip" />
+
+                <CheckBox
+                    android:id="@+id/setting_open_autobackup_cb"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/switch_selector"
+                    android:button="@null"
+                    android:checked="true" />
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                android:src="@drawable/common_white_board_divider_line" />
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="45.0dip"
+                android:background="@drawable/setting_item_bg"
+                android:paddingLeft="@dimen/setting_text_padding_size"
+                android:paddingRight="@dimen/setting_text_padding_size" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="同时备份到云端"
+                    android:textColor="@color/setting_text"
+                    android:textSize="18.0dip" />
+
+                <CheckBox
+                    android:id="@+id/setting_backup_cludy_cb"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/switch_selector"
+                    android:button="@null"
+                    android:checked="true" />
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                android:src="@drawable/common_white_board_divider_line" />
+
+            <RelativeLayout
+                android:id="@+id/setting_backup_time_ly"
+                android:layout_width="fill_parent"
+                android:layout_height="45.0dip"
+                android:background="@drawable/setting_item_bg"
+                android:clickable="true"
+                android:paddingLeft="@dimen/setting_text_padding_size"
+                android:paddingRight="@dimen/setting_text_padding_size" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="设置备份周期"
+                    android:textColor="@color/setting_text"
+                    android:textSize="18.0dip" />
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                android:src="@drawable/common_white_board_divider_line" />
+
+            <RelativeLayout
+                android:id="@+id/setting_backrec_ly"
+                android:layout_width="fill_parent"
+                android:layout_height="45.0dip"
+                android:background="@drawable/setting_item_bg"
+                android:paddingLeft="@dimen/setting_text_padding_size"
+                android:paddingRight="@dimen/setting_text_padding_size" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="开始备份恢复"
+                    android:textColor="@color/setting_text"
+                    android:textSize="18.0dip" />
+
+                <TextView
+                    android:id="@+id/backup_hint"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:text=""
+                    android:textColor="@color/setting_text"
+                    android:textSize="12.0dip" />
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                android:src="@drawable/common_white_board_divider_line" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="30.0dip"
+                android:layout_marginLeft="@dimen/setting_text_padding_size"
+                android:layout_marginTop="5.0dip"
+                android:gravity="center_vertical"
+                android:text="软件安全"
+                android:textColor="@color/setting_item_title"
+                android:textSize="14.0dip" />
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                android:src="@drawable/common_white_board_divider_line" />
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="45.0dip"
+                android:background="@drawable/setting_item_bg"
+                android:paddingLeft="@dimen/setting_text_padding_size"
+                android:paddingRight="@dimen/setting_text_padding_size" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="手势密码锁定"
+                    android:textColor="@color/setting_text"
+                    android:textSize="18.0dip" />
+
+                <CheckBox
+                    android:id="@+id/setting_isguesture"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/switch_selector"
+                    android:button="@null"
+                    android:checked="false" />
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                android:src="@drawable/common_white_board_divider_line" />
+
+            <RelativeLayout
+                android:id="@+id/setting_guesture_ly"
+                android:layout_width="fill_parent"
+                android:layout_height="45.0dip"
+                android:background="@drawable/setting_item_bg"
+                android:clickable="true"
+                android:paddingLeft="@dimen/setting_text_padding_size"
+                android:paddingRight="@dimen/setting_text_padding_size" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="设置手势密码"
+                    android:textColor="@color/setting_text"
+                    android:textSize="18.0dip" />
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                android:src="@drawable/common_white_board_divider_line" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="30.0dip"
+                android:layout_marginLeft="@dimen/setting_text_padding_size"
+                android:layout_marginTop="5.0dip"
+                android:gravity="center_vertical"
+                android:text="关于"
+                android:textColor="@color/setting_item_title"
+                android:textSize="14.0dip" />
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                android:src="@drawable/common_white_board_wide_divider_line" />
+
+            <RelativeLayout
+                android:id="@+id/setting_teach_ly"
+                android:layout_width="fill_parent"
+                android:layout_height="45.0dip"
+                android:background="@drawable/setting_item_bg"
+                android:paddingLeft="@dimen/setting_text_padding_size"
+                android:paddingRight="@dimen/setting_text_padding_size" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:duplicateParentState="true"
+                    android:text="软件教程"
+                    android:textColor="@color/setting_text"
+                    android:textSize="@dimen/setting_text_size" />
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                android:src="@drawable/common_white_board_divider_line" />
+
+            <RelativeLayout
+                android:id="@+id/setting_about_ly"
+                android:layout_width="fill_parent"
+                android:layout_height="45.0dip"
+                android:background="@drawable/setting_item_bg"
+                android:paddingLeft="@dimen/setting_text_padding_size"
+                android:paddingRight="@dimen/setting_text_padding_size" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:duplicateParentState="true"
+                    android:text="关于软件"
+                    android:textColor="@color/setting_text"
+                    android:textSize="@dimen/setting_text_size" />
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                android:src="@drawable/common_white_board_divider_line" />
+
+            <RelativeLayout
+                android:id="@+id/setting_update_ly"
+                android:layout_width="fill_parent"
+                android:layout_height="45.0dip"
+                android:background="@drawable/setting_item_bg"
+                android:clickable="true"
+                android:paddingLeft="@dimen/setting_text_padding_size"
+                android:paddingRight="@dimen/setting_text_padding_size" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:duplicateParentState="true"
+                    android:text="检查更新"
+                    android:textColor="@color/setting_text"
+                    android:textSize="@dimen/setting_text_size" />
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                android:src="@drawable/common_white_board_divider_line" />
+
+            <RelativeLayout
+                android:id="@+id/setting_contactus_ly"
+                android:layout_width="fill_parent"
+                android:layout_height="45.0dip"
+                android:background="@drawable/setting_item_bg"
+                android:clickable="true"
+                android:paddingLeft="@dimen/setting_text_padding_size"
+                android:paddingRight="@dimen/setting_text_padding_size" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:duplicateParentState="true"
+                    android:text="联系我们"
+                    android:textColor="@color/setting_text"
+                    android:textSize="@dimen/setting_text_size" />
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                android:src="@drawable/common_white_board_divider_line" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout><!-- From: file:/home/larson/larsoncode/StudioProject/pocketManager/res/layout/setting_main_page.xml -->

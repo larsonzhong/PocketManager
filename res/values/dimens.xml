@@ -1,0 +1,15 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="setting_padding_size">7.0dip</dimen>
+    <dimen name="setting_text_padding_size">15.0dip</dimen>
+    <dimen name="setting_list_height">45.0dip</dimen>
+    <dimen name="setting_text_size">18.0dip</dimen>
+    <dimen name="time_logo_width">150.0dip</dimen>
+    <dimen name="time_menu_distance">15.0dip</dimen>
+    <dimen name="time_bottom_distance">5.0dip</dimen>
+    <dimen name="time_bottom_btn_distance">43.0dip</dimen>  
+
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="reminder_misic">  
+    <item>alarm0</item>  
+    <item>alarm1</item>  
+    <item>alarm2</item>  
+    <item>alarm3</item>  
+    <item>alarm4</item>  
+    <item>alarm5</item>  
+    <item>alarm6</item>  
+</string-array>  
+</resources>

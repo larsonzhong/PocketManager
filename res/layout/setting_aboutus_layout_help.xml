@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#fff1f1f1"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        style="@style/topbar_bg"
+        android:layout_width="fill_parent"
+        android:layout_height="46.0dip" >
+
+        <TextView
+            android:id="@+id/topbar_title"
+            style="@style/topbar_text"
+            android:text="帮助" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#fff1f1f1"
+        android:orientation="vertical"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingBottom="20.0dip" >
+
+                <TextView
+                    style="@style/helpTitleStyle"
+                    android:text="@string/str_help_1" />
+
+                <TextView
+                    style="@style/helpContentStyle"
+                    android:text="@string/str_help_1_answer" />
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="2.0px"
+                    android:background="@drawable/listview_item_vertical_divider" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingBottom="20.0dip" >
+
+                <TextView
+                    style="@style/helpTitleStyle"
+                    android:text="@string/str_help_2" />
+
+                <TextView
+                    style="@style/helpContentStyle"
+                    android:text="@string/str_help_2_answer" />
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="2.0px"
+                    android:background="@drawable/listview_item_vertical_divider" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingBottom="20.0dip" >
+
+                <TextView
+                    style="@style/helpTitleStyle"
+                    android:text="@string/str_help_3" />
+
+                <TextView
+                    style="@style/helpContentStyle"
+                    android:text="@string/str_help_3_answer" />
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="2.0px"
+                    android:background="@drawable/listview_item_vertical_divider" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingBottom="20.0dip" >
+
+                <TextView
+                    style="@style/helpTitleStyle"
+                    android:text="@string/str_help_4" />
+
+                <TextView
+                    style="@style/helpContentStyle"
+                    android:text="@string/str_help_4_answer" />
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="2.0px"
+                    android:background="@drawable/listview_item_vertical_divider" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingBottom="20.0dip" >
+
+                <TextView
+                    style="@style/helpTitleStyle"
+                    android:text="@string/str_help_5" />
+
+                <TextView
+                    style="@style/helpContentStyle"
+                    android:text="@string/str_help_5_answer" />
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="2.0px"
+                    android:background="@drawable/listview_item_vertical_divider" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingBottom="20.0dip" >
+
+                <TextView
+                    style="@style/helpTitleStyle"
+                    android:text="@string/str_help_6" />
+
+                <TextView
+                    style="@style/helpContentStyle"
+                    android:text="@string/str_help_6_answer" />
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="2.0px"
+                    android:background="@drawable/listview_item_vertical_divider" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

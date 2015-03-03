@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fuction_fond_bg"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="85.0dip"
+        android:layout_margin="6dip"
+        android:background="@drawable/fuction_fond_money_display_bg"
+        android:orientation="horizontal" >
+
+        <EditText
+            android:id="@+id/fond_add_amount"
+            android:layout_width="260dp"
+            android:layout_height="52.0dip"
+            android:layout_margin="15.0dip"
+            android:layout_weight="0.18"
+            android:background="@drawable/fuction_fond_moneyinput"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:gravity="right|center"
+            android:hint="输入金额"
+            android:inputType="numberDecimal"
+            android:paddingRight="30dp"
+            android:textColorHint="#FFFFFF"
+            android:textSize="25.0dip"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/from_row_input_middle" >
+
+                <TextView
+                    android:layout_width="85dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center|right"
+                    android:text="资金流向"
+                    android:textColor="#FFFFFF"
+                    android:textSize="14sp" />
+
+                <Spinner
+                    android:id="@+id/fond_ifIn_sp"
+                    style="@style/form_raw_input_top"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:prompt="@string/fuction_fond_way" />
+
+                <ImageView
+                    style="@style/spinnerImageStyle"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/from_row_input_middle" >
+
+                <TextView
+                    android:layout_width="85dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center|right"
+                    android:text="消费类别"
+                    android:textColor="#FFFFFF"
+                    android:textSize="14sp" />
+
+                <Spinner
+                    android:id="@+id/fond_type_sp"
+                    style="@style/form_raw_input_top"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:prompt="@string/fuction_fond_way" />
+
+               <ImageView
+                    style="@style/spinnerImageStyle"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/from_row_input_middle" >
+
+                <TextView
+                    android:layout_width="85dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center|right"
+                    android:text="消费主题"
+                    android:textColor="#FFFFFF"
+                    android:textSize="14sp" />
+
+                <Spinner
+                    android:id="@+id/fond_add_subject_sp"
+                    style="@style/form_raw_input_top"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:prompt="@string/fuction_fond_way" />
+
+                <ImageView
+                    style="@style/spinnerImageStyle"/>
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="50dp" >
+
+                <TextView
+                    android:id="@+id/fond_add_date_tv"
+                    android:layout_width="160dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginLeft="40dp"
+                    android:focusable="false"
+                    android:text="2014-04-25"
+                    android:textSize="14sp"
+                    android:width="100dip" />
+
+                <Button
+                    android:id="@+id/fond_add_BtnDate"
+                    android:layout_width="160dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/from_row_input_middle"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/fond_add_time_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginLeft="200dp"
+                    android:focusable="false"
+                    android:text="06:44"
+                    android:textSize="14sp"
+                    android:width="100dip" />
+
+                <Button
+                    android:id="@+id/fond_add_BtnTime"
+                    android:layout_width="160dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_gravity="right"
+                    android:layout_marginRight="3dp"
+                    android:background="@drawable/from_row_input_middle"
+                    android:textColor="#ffffff"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="20dp"
+                android:layout_marginLeft="25dp"
+                android:text="添加备注"
+                android:textColor="#ffffff"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/fond_add_describe"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:layout_margin="5dp"
+                android:background="@drawable/function_fond_describe"
+                android:padding="5dp"
+                android:textColor="#ffffff" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="30dp"
+                android:gravity="center_vertical"
+                android:layout_weight="1"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/fond_add_Save"
+                    android:layout_width="115.0dip"
+                    android:layout_height="40dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/fuction_fond_btn_selector"
+                    android:clickable="true"
+                    android:text="保存" />
+
+                <Button
+                    android:id="@+id/fond_add_Cancel"
+                    android:layout_width="115.0dip"
+                    android:layout_height="40dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/fuction_fond_btn_selector"
+                    android:text="取消" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

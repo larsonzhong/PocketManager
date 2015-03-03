@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:background="@drawable/setting_item_bg"
+    android:clickable="true"
+    android:gravity="center_vertical"
+    android:minHeight="40.0dip"
+    android:orientation="horizontal" >
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_gravity="top"
+        android:paddingTop="4.0dip"
+        android:src="@drawable/touxiang" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10.0dip"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/setting_uid"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:text="未登录"
+            android:textColor="@android:color/black"
+            android:textSize="18.0sp" />
+
+        <TextView
+            android:id="@+id/setting_unick"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4.0dip"
+            android:gravity="center_vertical"
+            android:text="181351211"
+            android:textColor="#ff545454"
+            android:textSize="14.0sp" />
+    </LinearLayout>
+
+</LinearLayout>

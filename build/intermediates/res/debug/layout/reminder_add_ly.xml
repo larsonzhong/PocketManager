@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_marginTop="12dp"
+    android:background="@drawable/bg"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/reminder_add_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/item_button_blue"
+            android:text="取消" />
+
+        <Button
+            android:id="@+id/reminder_add_ok"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/item_button_blue"
+            android:text="储存" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:paddingBottom="40dp"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp"
+        android:paddingTop="20dp" >
+
+        <larson.pm.reminder.vew.WheelView
+            android:id="@+id/day"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <larson.pm.reminder.vew.WheelView
+            android:id="@+id/hour"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <larson.pm.reminder.vew.WheelView
+            android:id="@+id/mins"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <larson.pm.reminder.vew.WheelView
+            android:id="@+id/ampm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_marginTop="40dip"
+        android:background="#bbe1e1e1"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="45dip"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <EditText
+                android:id="@+id/reminder_add_event"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:hint="事件标题"
+                android:textColor="#000000"
+                android:textSize="18.0dip" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"
+            android:src="@drawable/common_white_board_divider_line" />
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="45.0dip"
+            android:background="#bbe1e1e1"
+            android:paddingLeft="@dimen/setting_text_padding_size"
+            android:paddingRight="@dimen/setting_text_padding_size" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="开启铃声提示"
+                android:textColor="#bb585858"
+                android:textSize="18.0dip" />
+
+            <CheckBox
+                android:id="@+id/reminder_music_hint_cb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/switch_selector"
+                android:button="@null"
+                android:checked="true" />
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"
+            android:src="@drawable/common_white_board_divider_line" />
+
+        <RelativeLayout
+            android:id="@+id/reminder_select_ringtone"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/setting_list_height"
+            android:background="@drawable/setting_item_bg"
+            android:clickable="true"
+            android:paddingLeft="@dimen/setting_text_padding_size"
+            android:paddingRight="@dimen/setting_text_padding_size" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:duplicateParentState="true"
+                android:text="设置通知铃声"
+                android:textColor="@color/setting_text"
+                android:textSize="@dimen/setting_text_size" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:duplicateParentState="true"
+                android:background="@drawable/goal_add_next_selector"
+                android:textColor="@color/setting_item_title"
+                android:textSize="14.0dip" />
+        </RelativeLayout>
+        
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="45.0dip"
+            android:background="#bbe1e1e1"
+            android:paddingLeft="@dimen/setting_text_padding_size"
+            android:paddingRight="@dimen/setting_text_padding_size" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="通知栏提示"
+                android:textColor="#bb585858"
+                android:textSize="18.0dip" />
+
+            <CheckBox
+                android:id="@+id/reminder_nitify_cb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/switch_selector"
+                android:button="@null"
+                android:checked="true" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout><!-- From: file:/home/larson/larsoncode/StudioProject/pocketManager/res/layout/reminder_add_ly.xml -->

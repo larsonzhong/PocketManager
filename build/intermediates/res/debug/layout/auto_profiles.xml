@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/top_bar_bg" >
+
+        <ImageView
+            android:id="@+id/btn_back"
+            android:layout_width="60dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|center"
+            android:background="@drawable/title_btn_bg_left"
+            android:src="@drawable/title_btn_icon_back" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/topbar_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="middle"
+                android:singleLine="true"
+                android:text="情景自动切换"
+                android:textSize="20.0sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+    </FrameLayout>
+
+    <ImageButton
+        android:id="@+id/auto_addbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/goal_new_btn_selector" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:background="#88888888"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_margin="15dip" >
+
+        <larson.pm.view.SlideCutListView
+            android:id="@+id/autoprofiles_listview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:cacheColorHint="@android:color/transparent"
+            android:divider="@drawable/common_white_board_wide_divider_line"
+            android:listSelector="@android:color/transparent" >
+        </larson.pm.view.SlideCutListView>
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/autoprofiles_help"
+        android:layout_width="45dip"
+        android:layout_height="45dip"
+        android:layout_margin="10dp"
+        android:layout_gravity="right|bottom"
+        android:background="@drawable/help_selector" />
+
+</LinearLayout><!-- From: file:/home/larson/larsoncode/StudioProject/pocketManager/res/layout/auto_profiles.xml -->

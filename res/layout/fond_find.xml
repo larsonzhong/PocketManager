@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fuction_fond_bg"
+    android:orientation="vertical" >
+    
+     <RelativeLayout
+        style="@style/topbar_bg"
+        android:layout_width="fill_parent"
+        android:layout_height="46.0dip" >
+        <TextView
+            android:id="@+id/topbar_title"
+            style="@style/topbar_text"
+            android:text="账单查询" />
+    </RelativeLayout>
+    
+     <TextView
+        android:layout_margin="5dp"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:gravity="center_vertical"
+        android:text="选择查询日期："
+        android:textColor="@android:color/background_dark"
+        android:textSize="20sp" />
+    
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginTop="4dp"
+        android:orientation="horizontal" >
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout1"
+            android:layout_width="0dip"
+            android:layout_height="38dp"
+            android:layout_marginBottom="4dp"
+            android:layout_weight="1"
+            android:background="@drawable/bg_search" >
+
+            <EditText
+                android:id="@+id/fond_find_date_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:background="@color/trans"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="请输入日期条件" >
+
+                <requestFocus />
+            </EditText>
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/layNew"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:background="#23456789"
+            android:focusable="true"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/fond_find_BtnDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/fuction_fond_selectdate_btn"
+                android:text=" 修改 "
+                android:textSize="16sp" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/fond_find_query"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_gravity="right"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/fuction_fond_btn_selector"
+        android:text="查询"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:layout_margin="5dp" >
+
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="10dp"
+            android:text="收入："
+            android:textColor="@android:color/background_dark"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/fond_find_in"
+            android:layout_width="80dp"
+            android:layout_height="20dp"
+            android:text="0元"
+            android:textColor="@android:color/background_dark"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="30dp"
+            android:text="支出："
+            android:textColor="@android:color/background_dark"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/fond_find_out"
+            android:layout_width="80dp"
+            android:layout_height="30dp"
+            android:text="0元"
+            android:textColor="@android:color/background_dark"
+            android:textSize="16sp" />
+    </LinearLayout>
+    
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_margin="5dp"
+        android:orientation="vertical">
+        
+    <ListView
+        android:background="@drawable/fuction_fond_list_bg"
+        android:layout_margin="5dp"
+        android:id="@+id/fond_find_lv"
+        android:scrollingCache="false"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+    </ListView>
+    </LinearLayout>
+
+</LinearLayout>

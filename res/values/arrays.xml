@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	 <string-array name="TBL_EXPENDITURE_CATEGORY">
+	     
+		<item>请选择</item>
+		<item>其他杂项</item>
+		<item>金融保险</item>
+		<item>医疗保健</item>
+		<item>人情往来</item>
+		<item>学习进修</item>
+		<item>休闲娱乐</item>
+		<item>交流通讯</item>
+		<item>行车交通</item>
+		<item>居家物业</item>
+		<item>食品酒水</item>
+		<item>衣服饰品</item>
+	</string-array>
+	<string-array name="TBL_EXPENDITURE_SUB_CATEGORY_1">
+		<item>烂账损失</item>
+		<item>意外丢失</item>
+		<item>其他支出</item>
+	</string-array>
+	<string-array name="TBL_EXPENDITURE_SUB_CATEGORY_2">
+		<item>赔偿罚款</item>
+		<item>利息支出</item>
+		<item>消费税收</item>
+		<item>按揭还款</item>
+		<item>投资亏损</item>
+		<item>银行手续</item>
+	</string-array>
+	<string-array name="TBL_EXPENDITURE_SUB_CATEGORY_3">
+		<item>治疗费</item>
+		<item>美容费</item>
+		<item>保健费</item>
+		<item>药品费</item>
+	</string-array>
+	<string-array name="TBL_EXPENDITURE_SUB_CATEGORY_4">
+		<item>送礼请客</item>
+		<item>慈善捐助</item>
+		<item>还人钱物</item>
+		<item>孝敬家长</item>
+	</string-array>
+	<string-array name="TBL_EXPENDITURE_SUB_CATEGORY_5">
+		<item>书报杂志</item>
+		<item>数码装备</item>
+		<item>培训进修</item>
+	</string-array>
+	<string-array name="TBL_EXPENDITURE_SUB_CATEGORY_6">
+		<item>休闲玩乐</item>
+		<item>旅游度假</item>
+		<item>宠物宝贝</item>
+		<item>腐败聚会</item>
+		<item>运动健身</item>
+	</string-array>
+	<string-array name="TBL_EXPENDITURE_SUB_CATEGORY_7">
+		<item>手机费</item>
+		<item>上网费</item>
+		<item>座机费</item>
+		<item>邮寄费</item>
+	</string-array>
+	<string-array name="TBL_EXPENDITURE_SUB_CATEGORY_8">
+		<item>公共交通</item>
+		<item>打车租车</item>
+		<item>私家车费用</item>
+	</string-array>
+	<string-array name="TBL_EXPENDITURE_SUB_CATEGORY_9">
+		<item>房租</item>
+		<item>物业管理</item>
+		<item>维修保养</item>
+		<item>水电煤气</item>
+		<item>日常用品</item>
+	</string-array>
+	<string-array name="TBL_EXPENDITURE_SUB_CATEGORY_10">
+		<item>早午晚餐</item>
+		<item>水果零食</item>
+		<item>烟酒茶</item>
+	</string-array>
+	<string-array name="TBL_EXPENDITURE_SUB_CATEGORY_11">
+		<item>衣服裤子</item>
+		<item>鞋帽包包</item>
+		<item>化妆饰品</item>
+	</string-array>
+	<string-array name="TBL_INCOME_CATEGORY">
+		<item>其他收入</item>
+		<item>职业收入</item>
+	</string-array>
+	<string-array name="TBL_INCOME_SUB_CATEGORY_1">
+		<item>经营所得</item>
+		<item>意外来钱</item>
+		<item>中奖收入</item>
+		<item>礼金收入</item>
+	</string-array>
+	<string-array name="TBL_INCOME_SUB_CATEGORY_2">
+		<item>兼职收入</item>
+		<item>投资收入</item>
+		<item>奖金收入</item>
+		<item>加班收入</item>
+		<item>利息收入</item>
+		<item>工资收入</item>
+	</string-array>
+	
+</resources>

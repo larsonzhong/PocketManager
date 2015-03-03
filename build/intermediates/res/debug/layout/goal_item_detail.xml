@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fuction_fond_bg"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/acbuwa_topbar"
+        style="@style/topbar_bg"
+        android:layout_width="fill_parent"
+        android:layout_height="46.0dip" >
+        
+        <ImageView
+            android:id="@+id/detail_btn_back"
+            android:layout_height="wrap_content"
+            android:layout_width="50dp"
+            android:background="@drawable/title_btn_bg_left"
+            android:src="@drawable/title_btn_icon_back"
+            android:layout_gravity="left|center" />
+
+        <TextView
+            style="@style/topbar_text"
+            android:text="目标详情页" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/goal_item_detail_name"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:background="@drawable/goal_name_detailbg_selector"
+            android:text="目标名称：我要做海贼王" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="wrap_content"
+            android:layout_height="120dp"
+            android:layout_below="@+id/goal_item_detail_name"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/goal_name_detailbg_selector"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/goal_item_detail_emergencyLevel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="非常紧急" />
+
+            <TextView
+                android:id="@+id/goal_item_detail_importanceLevel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="非常重要" />
+
+            <TextView
+                android:id="@+id/goal_item_detail_challengeLevel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="超高难度" />
+
+            <TextView
+                android:id="@+id/goal_item_detail_clearLevel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="十分明确" />
+
+            <TextView
+                android:id="@+id/goal_item_detail_publicLevel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="一般公开" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/goal_item_detail_suggesstion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/linearLayout1"
+            android:layout_alignTop="@+id/linearLayout1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_toRightOf="@+id/linearLayout1"
+            android:background="@drawable/goal_name_detailbg_selector"
+            android:text="建议你尽快完成这个目标，在某些时候可以牺牲一些次要的东西" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:id="@+id/goal_item_detail_limit_ly"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/goal_name_detailbg_selector"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/goal_item_detail_deadline1"
+                android:layout_width="100dp"
+                android:layout_height="35dp"
+                android:text="未设定"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/goal_item_detail_deadline2"
+                android:layout_width="100dp"
+                android:layout_height="35dp"
+                android:text="未设定"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/goal_item_detail_deadline3"
+                android:layout_width="100dp"
+                android:layout_height="35dp"
+                android:text="未设定"
+                android:textSize="12sp" />
+        </LinearLayout>
+        
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/goal_item_detail_limit_ly"
+            android:background="@drawable/goal_name_detailbg_selector"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/goal_item_detail_describe1"
+                android:layout_width="100dp"
+                android:layout_height="35dp"
+                android:text="未设定"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/goal_item_detail_describe2"
+                android:layout_width="100dp"
+                android:layout_height="35dp"
+                android:text="未设定"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/goal_item_detail_describe3"
+                android:layout_width="100dp"
+                android:layout_height="35dp"
+                android:text="未设定"
+                android:textSize="12sp" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/goal_item_detail_define"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/goal_name_detailbg_selector"
+                android:text="未设定"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/goal_item_detail_motivation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/goal_name_detailbg_selector"
+                android:text="未设定"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/goal_item_detail_benifit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/goal_name_detailbg_selector"
+                android:text="未设定"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/goal_item_detail_damage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/goal_name_detailbg_selector"
+                android:text="未设定"
+                android:textSize="16sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout><!-- From: file:/home/larson/larsoncode/StudioProject/pocketManager/res/layout/goal_item_detail.xml -->

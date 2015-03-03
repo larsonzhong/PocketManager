@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/fond_bill_item_middle"
+        android:gravity="center" >
+        
+        <ImageView
+            android:id="@+id/goal_bill_group_iv"
+            android:layout_height="wrap_content"
+            android:layout_width="50dp"
+            android:background="@drawable/title_btn_bg_left"
+            android:src="@drawable/all"
+            android:layout_marginLeft="40dp"
+            android:layout_gravity="left|center" />
+
+        <TextView
+            android:id="@+id/goal_bill_group_name"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="25dp"
+            android:text="目标级别设定"
+            android:textSize="25sp" />
+
+    </LinearLayout>
+
+</LinearLayout>

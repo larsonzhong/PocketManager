@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">口袋管理</string>
+    <string name="fuction_fond_way">资金流向</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="function_title">小助手</string>
+    <string name="fuction_fond_appname">理财专家</string>
+    <string name="fuction_goal_appname">目标管理</string>
+    <string name="fuction_fond_selecttype">选择类别</string>
+   <string name="reminder_add_spin">选择提示音乐</string>
+    
+    <string name="lockscreen_access_pattern_start">"开始绘制图案"</string>
+    <string name="lockscreen_access_pattern_cleared">"图案已清除"</string>
+    <string name="lockscreen_access_pattern_cell_added">"已添加单元格"</string>
+    <string name="lockscreen_access_pattern_detected">"图案绘制完成"</string>
+     <string name="lockpattern_retry_button_text">"重试"</string>
+    <string name="lockpattern_continue_button_text">"继续"</string>
+    <string name="lockpattern_confirm_button_text">"确认"</string>
+    <string name="lockpattern_recording_intro_header">"绘制解锁图案"</string>
+    <string name="lockpattern_settings_help_how_to_record">"如何绘制解锁图案"</string>
+    <string name="lockpattern_recording_incorrect_too_short">"至少连接4个点，请重试"</string>
+    <string name="lockpattern_pattern_entered_header">"图案已记录"</string>
+    <string name="lockpattern_need_to_confirm">"请再次绘制解锁图案"</string>
+    <string name="lockpattern_need_to_unlock_wrong">"与上次输入不一致，请重试"</string>
+    <string name="lockpattern_pattern_confirmed_header">"确认保存新解锁图案"</string>
+    <string name="lockpattern_recording_inprogress">"完成后松开手指"</string>
+    <string name="gesture_password_guide_text">你可以创建一个解锁图案，这样他人在借用你的手机时，将无法打开应用。</string>
+    <string name="gesture_password_guide_creat_btn">创建手势密码</string>
+    <string name="can_not_find_version_name">版本识别有误</string>
+    <string name="about_share">推荐给好友</string>
+    <string name="popup_search">搜索账单</string>
+    <string name="popup_bill">查看清单</string>
+    <string name="popup_chart">图文报表</string>
+    <string name="login_register_link">没有帐号？ <a href="#">注册</a></string>
+    
+     <string name="str_help_1">1.什么是口袋管理？</string>
+    <string name="str_help_1_answer">口袋管理是一款安全便捷的个人管理软件，具有五大特色功能：</string>
+     <string name="str_help_2">1.安全：</string>
+    <string name="str_help_2_answer">具有密码锁，具有数据备份恢复和自动同步数据。</string>
+     <string name="str_help_3">2.便捷：</string>
+    <string name="str_help_3_answer">随时随地处理事务，操作简单，使用方便</string>
+     <string name="str_help_4">3.丰富：</string>
+    <string name="str_help_4_answer">丰富的管理功能，集个软件功能于一身，资金管理，目标管理，时间小工具，应有尽有。</string>
+     <string name="str_help_5">5.特色：</string>
+    <string name="str_help_5_answer">不要忘了我们有飞行模式，我们有来电模式，我们有人性化的目标设定，我们还有独具特色的时间小工具，还有更多敬请期待。</string>
+     <string name="str_help_6">4.优化：</string>
+    <string name="str_help_6_answer">占用内存小，不会担心过多资源消耗，更省电。</string>
+    
+</resources>

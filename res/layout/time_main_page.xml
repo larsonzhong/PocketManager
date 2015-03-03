@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical" >
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp" >
+
+        <ImageButton
+            android:id="@+id/time_profiles_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:background="#00ffffff"
+            android:src="@drawable/profiles_button_selector" />
+
+        <ImageButton
+            android:id="@+id/time_reminder_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/time_menu_distance"
+            android:layout_toRightOf="@id/time_profiles_btn"
+            android:background="#00ffffff"
+            android:src="@drawable/reminder_btn_selector" />
+
+        <ImageButton
+            android:id="@+id/time_timer_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/time_profiles_btn"
+            android:layout_marginTop="@dimen/time_menu_distance"
+            android:background="#00ffffff"
+            android:src="@drawable/timer_btn_selector" />
+
+        <ImageButton
+            android:id="@+id/time_setting_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/time_reminder_btn"
+            android:layout_marginLeft="@dimen/time_menu_distance"
+            android:layout_marginTop="@dimen/time_menu_distance"
+            android:layout_toRightOf="@id/time_timer_btn"
+            android:background="#00ffffff"
+            android:src="@drawable/time_autosms_btn_selector" />
+    </RelativeLayout>
+
+    
+
+</LinearLayout>

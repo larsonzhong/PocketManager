@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="CommitPrefEdits">
+        <ignore path="src/larson/wlb/utils/App.java" />
+    </issue>
+    <issue id="ContentDescription">
+        <ignore path="res/layout/fuction_goal_add.xml" />
+        <ignore path="res/layout/new_sms.xml" />
+        <ignore path="res/layout/setting_main_page.xml" />
+        <ignore path="res/layout/setting_software_ly.xml" />
+    </issue>
+    <issue id="DrawAllocation">
+        <ignore path="src/larson/wlb/view/MyImageView.java" />
+    </issue>
+    <issue id="DuplicateIds">
+        <ignore path="res/layout/fuction_goal_add.xml" />
+    </issue>
+    <issue id="HandlerLeak">
+        <ignore path="src/larson/pm/LoginActivity.java" />
+        <ignore path="src/larson/pm/RegisterActivity.java" />
+        <ignore path="src/larson/wlb/GoalAddDetailActivity.java" />
+        <ignore path="src/larson/wlb/view/MyImageView.java" />
+    </issue>
+    <issue id="HardcodedText">
+        <ignore path="res/layout/auto_add.xml" />
+        <ignore path="res/layout/fuction_goal_add.xml" />
+        <ignore path="res/layout/goal_item_detail.xml" />
+        <ignore path="res/layout/new_sms.xml" />
+        <ignore path="res/layout/reminder_add_ly.xml" />
+        <ignore path="res/layout/setting_main_page.xml" />
+        <ignore path="res/layout/setting_notify_ly.xml" />
+        <ignore path="res/layout/setting_software_ly.xml" />
+        <ignore path="res/layout/sms_item.xml" />
+    </issue>
+    <issue id="SimpleDateFormat">
+        <ignore path="src/larson/wlb/adapter/FondLVAdapter.java" />
+        <ignore path="src/larson/wlb/view/TimeTools.java" />
+    </issue>
+</lint>
