@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/home/larson/larsoncode/StudioProject/pocketManager/res/values/arrays.xml -->
+    <!-- From: file:/home/larson/larsoncode/StudioProject/PocketManager/res/values/arrays.xml -->
     <eat-comment/>
     <string-array name="TBL_EXPENDITURE_CATEGORY">
 	     
@@ -100,7 +100,7 @@
 		<item>利息收入</item>
 		<item>工资收入</item>
 	</string-array>
-    <!-- From: file:/home/larson/larsoncode/StudioProject/pocketManager/res/values/reminder_add_spinner.xml -->
+    <!-- From: file:/home/larson/larsoncode/StudioProject/PocketManager/res/values/reminder_add_spinner.xml -->
     <eat-comment/>
     <string-array name="reminder_misic">  
     <item>alarm0</item>  
@@ -111,7 +111,7 @@
     <item>alarm5</item>  
     <item>alarm6</item>  
 </string-array>
-    <!-- From: file:/home/larson/larsoncode/StudioProject/pocketManager/res/values/color.xml -->
+    <!-- From: file:/home/larson/larsoncode/StudioProject/PocketManager/res/values/color.xml -->
     <eat-comment/>
     <color name="aliceblue">#F0F8FF</color>
     <color name="antiquewhite">#FAEBD7</color>
@@ -130,7 +130,7 @@
     <color name="trans">#00000000</color>
     <color name="txt_color_gray">#ff898989</color>
     <declare-styleable name="LockPatternView"><attr name="aspect"><enum name="square" value="0"/><enum name="lockWidth" value="1"/><enum name="lockHeight" value="2"/></attr><attr format="color" name="line"/><attr format="reference" name="btnNormal"/><attr format="reference" name="btnTouched"/><attr format="reference" name="circleNormal"/><attr format="reference" name="circleGreen"/><attr format="reference" name="circleRed"/><attr format="reference" name="arrowGreenUp"/><attr format="reference" name="arrowRedUp"/></declare-styleable>
-    <!-- From: file:/home/larson/larsoncode/StudioProject/pocketManager/res/values/dimens.xml -->
+    <!-- From: file:/home/larson/larsoncode/StudioProject/PocketManager/res/values/dimens.xml -->
     <eat-comment/>
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
@@ -142,7 +142,7 @@
     <dimen name="time_bottom_distance">5.0dip</dimen>
     <dimen name="time_logo_width">150.0dip</dimen>
     <dimen name="time_menu_distance">15.0dip</dimen>
-    <!-- From: file:/home/larson/larsoncode/StudioProject/pocketManager/res/values/strings.xml -->
+    <!-- From: file:/home/larson/larsoncode/StudioProject/PocketManager/res/values/strings.xml -->
     <eat-comment/>
     <string name="about_share">推荐给好友</string>
     <string name="action_settings">Settings</string>
@@ -188,7 +188,7 @@
     <string name="str_help_5_answer">不要忘了我们有飞行模式，我们有来电模式，我们有人性化的目标设定，我们还有独具特色的时间小工具，还有更多敬请期待。</string>
     <string name="str_help_6">4.优化：</string>
     <string name="str_help_6_answer">占用内存小，不会担心过多资源消耗，更省电。</string>
-    <!-- From: file:/home/larson/larsoncode/StudioProject/pocketManager/res/values/styles.xml -->
+    <!-- From: file:/home/larson/larsoncode/StudioProject/PocketManager/res/values/styles.xml -->
     <eat-comment/>
     <style name="AppTheme" parent="@android:style/Theme">
         <item name="android:windowNoTitle">true</item>

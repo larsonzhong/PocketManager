@@ -5,4 +5,4 @@
     <item android:state_focused="true" android:drawable="@drawable/setting_item_bg_w_pressed2" />
     <item android:state_pressed="true" android:drawable="@drawable/setting_item_bg_w_pressed2" />
     <item android:drawable="@drawable/setting_item_bg_w_normal2" />
-</selector><!-- From: file:/home/larson/larsoncode/StudioProject/pocketManager/res/drawable/about_setting_item_bg.xml -->
+</selector><!-- From: file:/home/larson/larsoncode/StudioProject/PocketManager/res/drawable/about_setting_item_bg.xml -->

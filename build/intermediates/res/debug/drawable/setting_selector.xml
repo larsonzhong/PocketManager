@@ -4,4 +4,4 @@
     <item android:drawable="@drawable/setting_normal" android:state_pressed="false"/>
     <item android:drawable="@drawable/setting_pressed" android:state_pressed="true"/>
 
-</selector><!-- From: file:/home/larson/larsoncode/StudioProject/pocketManager/res/drawable/setting_selector.xml -->
+</selector><!-- From: file:/home/larson/larsoncode/StudioProject/PocketManager/res/drawable/setting_selector.xml -->

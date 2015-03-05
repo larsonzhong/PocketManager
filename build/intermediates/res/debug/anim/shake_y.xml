@@ -4,4 +4,4 @@
     android:interpolator="@anim/interpolator_cycle"
     android:toYDelta="10" >
 
-</translate><!-- From: file:/home/larson/larsoncode/StudioProject/pocketManager/res/anim/shake_y.xml -->
+</translate><!-- From: file:/home/larson/larsoncode/StudioProject/PocketManager/res/anim/shake_y.xml -->

@@ -5,4 +5,4 @@
     <item android:state_focused="true"
           android:drawable="@drawable/whatsnew_btn_pressed" /> <!-- focused -->
     <item android:drawable="@drawable/whatsnew_btn_nor" /> <!-- default -->
-</selector><!-- From: file:/home/larson/larsoncode/StudioProject/pocketManager/res/drawable/new_button_bg.xml -->
+</selector><!-- From: file:/home/larson/larsoncode/StudioProject/PocketManager/res/drawable/new_button_bg.xml -->

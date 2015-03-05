@@ -4,4 +4,4 @@
     <item android:drawable="@drawable/timer_btn_normal" android:state_pressed="false"/>
     <item android:drawable="@drawable/timer_btn_pressed" android:state_pressed="true"/>
 
-</selector><!-- From: file:/home/larson/larsoncode/StudioProject/pocketManager/res/drawable/timer_btn_selector.xml -->
+</selector><!-- From: file:/home/larson/larsoncode/StudioProject/PocketManager/res/drawable/timer_btn_selector.xml -->

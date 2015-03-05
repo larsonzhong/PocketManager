@@ -4,4 +4,4 @@
     <item android:drawable="@drawable/edit_pressed" android:state_pressed="false"/>
     <item android:drawable="@drawable/edit_normal" android:state_pressed="true"/>
 
-</selector><!-- From: file:/home/larson/larsoncode/StudioProject/pocketManager/res/drawable-hdpi/edit_selector.xml -->
+</selector><!-- From: file:/home/larson/larsoncode/StudioProject/PocketManager/res/drawable-hdpi/edit_selector.xml -->

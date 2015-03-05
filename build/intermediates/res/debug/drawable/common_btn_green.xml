@@ -5,4 +5,4 @@
     <item android:state_enabled="false" android:drawable="@drawable/skin_common_btn_green_disable" />
     <item android:drawable="@drawable/skin_common_btn_green_normal" />
 </selector>
-<!-- From: file:/home/larson/larsoncode/StudioProject/pocketManager/res/drawable/common_btn_green.xml -->
+<!-- From: file:/home/larson/larsoncode/StudioProject/PocketManager/res/drawable/common_btn_green.xml -->

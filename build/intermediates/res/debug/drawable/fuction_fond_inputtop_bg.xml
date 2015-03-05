@@ -3,4 +3,4 @@
     <item android:state_pressed="false" android:drawable="@drawable/fuction_fond_input_top_normal"></item>
     <item android:state_pressed="true" android:drawable="@drawable/fuction_fond_input_top_selected"></item>
 
-</selector><!-- From: file:/home/larson/larsoncode/StudioProject/pocketManager/res/drawable/fuction_fond_inputtop_bg.xml -->
+</selector><!-- From: file:/home/larson/larsoncode/StudioProject/PocketManager/res/drawable/fuction_fond_inputtop_bg.xml -->

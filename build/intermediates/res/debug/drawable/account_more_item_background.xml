@@ -6,4 +6,4 @@
     <item android:drawable="@drawable/list_item_bg_operate" android:state_focused="true"/>
     <item android:drawable="@drawable/list_item_bg_operate" android:state_focused="false"/>
 
-</selector><!-- From: file:/home/larson/larsoncode/StudioProject/pocketManager/res/drawable/account_more_item_background.xml -->
+</selector><!-- From: file:/home/larson/larsoncode/StudioProject/PocketManager/res/drawable/account_more_item_background.xml -->

@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="/home/larson/larsoncode/StudioProject/pocketManager/assets"/></dataSet><dataSet config="debug"><source path="/home/larson/larsoncode/StudioProject/pocketManager/build-types/debug/assets"/></dataSet></merger>
+<merger version="3"><dataSet config="main"><source path="/home/larson/larsoncode/StudioProject/PocketManager/assets"/></dataSet><dataSet config="debug"><source path="/home/larson/larsoncode/StudioProject/PocketManager/build-types/debug/assets"/></dataSet></merger>

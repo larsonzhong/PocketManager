@@ -135,4 +135,4 @@
         layout="@layout/goal_step3_middle"
         android:visibility="gone" />
 
-</LinearLayout><!-- From: file:/home/larson/larsoncode/StudioProject/pocketManager/res/layout/goal_add_step.xml -->
+</LinearLayout><!-- From: file:/home/larson/larsoncode/StudioProject/PocketManager/res/layout/goal_add_step.xml -->
